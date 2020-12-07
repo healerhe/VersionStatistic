@@ -1,0 +1,657 @@
+[
+    {
+        "project": "Kibana",
+        "repo": "elastic/kibana",
+        "type": "Log",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "5.3.1"
+        ],
+        "integration_method": [
+            "iManager-客户端"
+        ]
+    },
+    {
+        "project": "filebeat",
+        "repo": "elastic/beats",
+        "type": "Log",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "5.6.2", "6.3.2"
+        ],
+        "integration_method": [
+            "iManager-内置", "online-内置"
+        ]
+      },
+    {
+        "project": "compose",
+        "repo": "docker/compose",
+        "type": "Container",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.11.2"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "pure-ftpd",
+        "repo": "stilliard/pure-ftpd/",
+        "type": "ftp",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "hardened"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "grafana",
+        "repo": "grafana/grafana",
+        "type": "Monitor",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "6.6.2"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "Elasticsearch",
+        "repo": "elastic/elasticsearch",
+        "type": "DB",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "5.3.1",
+            "6.3.0",
+            "6.6.1",
+            "5.6.10"
+        ],
+        "integration_method": [
+            "iManager-内置",
+            "iPortal-内置",
+            "iServer-内置",
+            "online-内置"
+        ]
+    },
+    {
+        "project": "Consul",
+        "repo": "hashicorp/consul",
+        "type": "Discovery",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.1.1"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "Prometheus",
+        "repo": "prometheus/prometheus",
+        "type": "Monitor",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.8.1"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "metis",
+        "repo": "Tencent/Metis",
+        "type": "Monitor",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.2.0"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "zabbix-gateway",
+        "repo": "zabbix/zabbix-docker",
+        "type": "Monitor",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "4.2.7"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "zabbix-proxy-sqlite3",
+        "repo": "zabbix/zabbix-docker",
+        "type": "DB",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "4.2.7"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "zabbix-server-mysql",
+        "repo": "zabbix/zabbix-server-mysql",
+        "type": "Monitor",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "ubuntu-4.2.7"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "Adminer",
+        "repo": "vrana/adminer",
+        "type": "Monitor",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "4.7.7",
+            "4.6.3"
+        ],
+        "integration_method": [
+            "iManager-内置",
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "compose-ui",
+        "repo": "francescou/docker-compose-ui",
+        "type": "webInterface",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.6.0"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "docker-mailserver",
+        "repo": "tomav/docker-mailserver",
+        "type": "mailserver",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "7.0.1"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "Nginx",
+        "repo": "library/nginx",
+        "type": "Proxy",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.19.1","1.19.2"
+        ],
+        "integration_method": [
+            "iManager-内置","online-内置"
+        ]
+    },
+    {
+        "project": "Mysql",
+        "repo": "library/mysql",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "5.7.12","5.7"
+        ],
+        "integration_method": [
+            "iManager-内置","online-内置"
+        ]
+    },
+    {
+        "project": "oracleDB_exporter",
+        "repo": "iamseth/oracleDB_exporter",
+        "type": "exporter",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.2.2"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "node_exporter",
+        "repo": "prometheus/node_exporter",
+        "type": "exporter",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.15.2"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "mysqld_exporter",
+        "repo": "prometheus/mysqld_exporter",
+        "type": "exporter",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.10.0"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "hbase-regionserver",
+        "repo": "bde2020/hbase-regionserver",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.0.0-hbase1.2.6"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "Postgres",
+        "repo": "library/postgres",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "10",
+            "9.6.2"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置",
+            "iServer-内置"
+        ]
+    },
+    {
+        "project": "Mariadb",
+        "repo": "library/mariadb",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "10.4.13"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "Postgis",
+        "repo": "mdillon/postgis",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "10"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "PhpRedisAdmin",
+        "repo": "erikdubbelboer/phpredisadmin",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.11.1"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "Redis",
+        "repo": "redis/redis",
+        "type": "DB",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "6.0.8"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "nginx-ingress-controller",
+        "repo": "siriuszg/nginx-ingress-controller",
+        "type": "Proxy",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.26.1"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "vsftpd",
+        "repo": "fauria/vsftpd",
+        "type": "ftp",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "latest"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "spark",
+        "repo": "apache/spark",
+        "type": "Distribution",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.3.2"
+        ],
+        "integration_method": [
+            "iServer-内置"
+        ]
+    },
+    {
+        "project": "hadoop-datanode",
+        "repo": "bde2020/hadoop-datanode",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.1.0-hadoop2.7.1-java8"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "hadoop-namenode",
+        "repo": "bde2020/hadoop-namenode",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.1.0-hadoop2.7.1-java8"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "hadoop-nodemanager",
+        "repo": "bde2020/hadoop-nodemanager",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.1.0-hadoop2.7.1-java8"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "hadoop-resourcemanager",
+        "repo": "bde2020/hadoop-resourcemanager",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.1.0-hadoop2.7.1-java8"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "zookeeper",
+        "repo": "library/zookeeper",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "3.5"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "memcached",
+        "repo": "library/memcached",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.5.3"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "k8s_dashboard",
+        "repo": "kubernetes/dashboard",
+        "type": "Orchestration",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.8.3"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "kube-state-metrics",
+        "repo": "kubernetes/kube-state-metrics",
+        "type": "Orchestration",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.2.0"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "stolon",
+        "repo": "sorintlab/stolon",
+        "type": "Orchestration",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "master-pg10"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "tomcat",
+        "repo": "apache/tomcat",
+        "type": "Tools",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "8.5.58",
+            "8.5.57"
+        ],
+        "integration_method": [
+            "iSPE-内置",
+            "online-内置"
+        ]
+    },
+    {
+        "project": "OpenJDK",
+        "repo": "openjdk/jdk",
+        "type": "Tools",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "jdk8u265-b01",
+            "jdk8u265-b01",
+            "jdk-11.0.8+10",
+            "jdk8u265-b01"
+        ],
+        "integration_method": [
+            "iServer-内置",
+            "iPortal-内置",
+            "iEdge-内置",
+            "online-内置"
+        ]
+    },
+    {
+        "project": "tiny-tools",
+        "repo": "giantswarm/tiny-tools",
+        "type": "Tools",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.3.0"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "Kafka",
+        "repo": "wurstmeister/kafka",
+        "type": "Message",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.12-2.4.1"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "kafka-manager",
+        "repo": "hleb-albau/kafka-manager-docker",
+        "type": "Message",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "3.0.0.4"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "RabbitMQ",
+        "repo": "library/rabbitmq",
+        "type": "Message",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "3.8.0-management"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "spark-worker",
+        "repo": "bde2020/spark-worker",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.3.2-hadoop2.7"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "spark-master",
+        "repo": "bde2020/spark-master",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.3.2-hadoop2.7"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "hbase-master",
+        "repo": "bde2020/hbase-master",
+        "type": "DB",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "1.0.0-hbase1.2.6"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "hdfs-filebrowser",
+        "repo": "bde2020/hdfs-filebrowser",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "3.11"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    },
+    {
+        "project": "nfs-client-provisioner",
+        "repo": "ibmcom/nfs-client-provisioner-ppc64le",
+        "type": "Orchestration",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.0.1"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    }
+]

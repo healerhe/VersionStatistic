@@ -1,0 +1,53 @@
+[
+    {
+        "project": "Kafka",
+        "repo": "wurstmeister/kafka",
+        "type": "Message",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.12-2.4.1"
+        ],
+        "integration_method": [
+            "iManager for k8s-内置"
+        ]
+    },
+    {
+        "project": "docker-keepalived",
+        "repo": "NeoAssist/docker-keepalived",
+        "type": "HA",
+        "hosting": "github",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "0.1rc-1"
+        ],
+        "integration_method": [
+            "iManager-内置"
+        ]
+    },
+    {
+        "project": "hdfs-filebrowser",
+        "repo": "bde2020/hdfs-filebrowser",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "3.11"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    }, {
+        "project": "spark-worker",
+        "repo": "bde2020/spark-worker",
+        "type": "Distribution",
+        "hosting": "dockerhub",
+        "add_time": "2019-09-16T11:11:37Z",
+        "current_version": [
+            "2.3.2-hadoop2.7"
+        ],
+        "integration_method": [
+            "iManager for k8s-客户端"
+        ]
+    }
+]
